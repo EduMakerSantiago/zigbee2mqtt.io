@@ -32,11 +32,11 @@ pageClass: device-page
 
 ## Exposes
 
-### Water leak (binary)
-Indicates whether the device detected a water leak.
-Value can be found in the published state on the `water_leak` property.
+### Raining (binary)
+Indicates whether the device detected rain.
+Value can be found in the published state on the `rain` property.
 It's not possible to read (`/get`) or write (`/set`) this value.
-If value equals `true` water leak is ON, if `false` OFF.
+If value equals `true` raining is ON, if `false` OFF.
 
 ### Battery low (binary)
 Indicates if the battery of this device is almost empty.
